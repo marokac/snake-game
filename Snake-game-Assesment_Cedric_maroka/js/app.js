@@ -23,28 +23,28 @@
 
     switch (keyCode) {
 
-      case 100:
+      case 37:
         if (direction != 'right') {
           direction = 'left';
         }
         console.log('left');
         break;
 
-      case 102:
+      case 39:
         if (direction != 'left') {
           direction = 'right';
           console.log('right');
         }
         break;
 
-      case 101:
+      case 38:
         if (direction != 'down') {
           direction = 'up';
           console.log('up');
         }
         break;
 
-      case 98:
+      case 40:
         if (direction != 'up') {
           direction = 'down';
           console.log('down');
